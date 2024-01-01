@@ -68,7 +68,7 @@ javax.net.ssl|ERROR|01|main|2024-01-01 18:04:49.620 BRT|TransportContext.java:35
 )
 {% endhighlight %}
 
-Let's understand the anatomy of this exception. You may ask yourself, where the date `Sun Apr 12 20:59:5Sun Apr 12 20:59:59 BRT 20159 BRT 2015` is coming from. In your application, set the property `-Djavax.net.debug=ssl:handshake:verbose` otherwise use the [ssl-handshake-debugger][ssl-handshake-debugger] application with the following:
+Let's understand the anatomy of this exception. You may ask yourself, where the date `Sun Apr 12 20:59:59 BRT 2015` is coming from. In your application, set the property `-Djavax.net.debug=ssl:handshake:verbose` otherwise use the [ssl-handshake-debugger][ssl-handshake-debugger] application with the following:
 
 {% highlight shell %}
 $ ssl-handshake-debugger -u https://expired.badssl.com/
