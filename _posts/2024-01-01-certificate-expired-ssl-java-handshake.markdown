@@ -74,7 +74,7 @@ Let's understand the anatomy of this exception. You may ask yourself, where the 
 $ ssl-handshake-debugger -u https://expired.badssl.com/
 {% endhighlight %}
 
-You will see the certificate informations presented by the server to the client. At the `consuming server Certificate handshake message`, you will see the certificate chain, starting by leaf, intermediary and root CA certificates:
+You will see the certificate informations presented by the server to the client, at the `consuming server Certificate handshake message`, you will see the certificate chain, starting by leaf, intermediary and root CA certificates:
 
 {% highlight java %}
 javax.net.ssl|DEBUG|01|main|2024-01-01 18:04:49.582 BRT|CertificateMessage.java:366|Consuming server Certificate handshake message (
