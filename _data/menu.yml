@@ -1,0 +1,21 @@
+entries:
+  - title: info
+    entries:
+      - title: Contact / Follow Me
+        url: https://linktr.ee/gabrielpadilh4
+
+  - title: all posts
+    post_list:
+      limit: 10
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml
+  
+  - title: about me
+    url: about
+  - title: PRO TIP
+    entries:
+      - title: to edit this menu, edit _data/menu.yml file

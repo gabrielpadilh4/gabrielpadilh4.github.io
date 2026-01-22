@@ -1,0 +1,20 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Ruby/Bundle files
+.bundle/
+Gemfile.lock
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore local configuration overrides
+_config.yml.local

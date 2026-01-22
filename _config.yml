@@ -1,0 +1,20 @@
+title: Gabriel Santos
+email: gabrielpadilhasantos@gmail.com
+description: >-
+  Gabriel Santos - Software Maintenance Engineer @ Red Hat | Red Hat Certified Architect
+url: "https://gabrielpadilh4.github.io"
+github_username:  gabrielpadilh4
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
